@@ -1,4 +1,4 @@
-kitematic-docker-php
+docker-php-kitematic
 ================
 
 Simple docker image optimised for Kitematic to run PHP applications on Apache
