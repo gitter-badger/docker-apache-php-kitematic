@@ -21,11 +21,11 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf && \
 ADD run.sh /run.sh
 RUN chmod 755 /*.sh
 
-# Configure /app folder with sample app
-RUN mkdir -p /app && rm -fr /var/www/html && ln -s /app /var/www/html
-ADD sample/ /app
-
+# Configure /app volume with sample app
+RUN rm -rf /var/www/html
 VOLUME ["/app"]
+ADD sample/ /app/
+RUN ln -s /app /var/www/html
 
 EXPOSE 80
 WORKDIR /app
