@@ -1,6 +1,8 @@
 docker-php-kitematic
 ================
 
+[![Join the chat at https://gitter.im/getgrav/docker-apache-php-kitematic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/getgrav/docker-apache-php-kitematic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Simple docker image optimised for Kitematic to run PHP applications on Apache
 
 Based on the (awesome) work of Fernando Mayo <fernando@tutum.co>
